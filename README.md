@@ -3,6 +3,18 @@ Offline-versioned copies of DUNE-DAQ/daqdataformats
 
 This repository contains versioned copies of header files used to define the data formats used by the DUNE DAQ.  Due to evolution of the formats and the need for the DUNE Offline to support reading and processing of all current and older data, all versions of these classes need to be available to all offline jobs at any time.  ROOT provides tools for automatically migrating from one version of a class to another when reading data from files, but HDF5 does not.  This repository therefore contains directories labeled by version number to maintain each version of the header files.
 
+Original files can be found here.
+
+https://github.com/dune-daq/daqdataformats
+
+HD and VD coldbox data have been collected with
+dunedaqdataformats v3_3_3-formatted data, and so
+this is the first version that is included in the
+preservation list.  v3_4_1 is the first version
+of dunedaqdataformats to introduce the versioning
+scheme.
+
+
 ## Copyright and Licensing
 Copyright © 2023 FERMI NATIONAL ACCELERATOR LABORATORY for the benefit of the DUNE Collaboration.
 
