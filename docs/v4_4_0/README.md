@@ -4,6 +4,10 @@
 
 - version v4_4_0 gets its name from the DUNE DAQ release made in advance of ProtoDUNE running in April 2024.  It actually uses code from daqdataformats v3.7.0
 
+- Update August 21, 2024:  there are non-breaking changes in DUNE DAQ fddaq v4.4.4, which corresponds to daqdataformats v3.7.1.  These have simply been merged in to
+  this repository without increasing the version number of the interally versioned directories, so it stays at v4_4_0 internally, but the UPS product version is
+  incremented to v4_4_4.
+
 - remaining documentation is copied from https://github.com/dune-daq/daqdataformats v3.7.0
 
 - This repository contains raw data bitfields and utilities used to decode them
