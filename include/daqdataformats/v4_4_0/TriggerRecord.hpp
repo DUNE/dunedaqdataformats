@@ -88,6 +88,19 @@ public:
 
     for (auto const& frag_ptr : m_fragments)
       total_size += frag_ptr->get_size();
+     
+    return total_size;
+  }
+     
+  /**
+   * @brief Get the sum of the fragment payload sizes
+   */
+  size_t get_sum_of_fragment_payload_sizes() const
+  {
+    size_t total_size = 0;
+
+    for (auto const& frag_ptr : m_fragments)
+       total_size += frag_ptr->get_data_size();
 
     return total_size;
   }
